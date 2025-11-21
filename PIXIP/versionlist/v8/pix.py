@@ -1,4 +1,22 @@
-# PIXIP v0.8 Efficient file to pixel beta
+# This module is made by REI otherwise known as KeiNeroKami in Github
+# Codespace helper: gpt-5.1
+# ====================<REIME>====================
+# v0.8 Efficiency Patch Notes
+# Fixed fleep extension retrieval with safe fallback
+# Corrected image sizing tiers: 250, 500, 1000, 2500, 3000
+# Optimized encode/decode loops using flat index traversal
+# Improved byte packing via bit shifting
+# Safer padding removal for null-bytes
+# Unified error handling and progress logging
+# Reduced redundant file checks and simplified logicands
+# 
+# 
+# 
+# 
+# 
+# Made: 11, 21, 25
+# ===============================================
+
 
 from PIL import Image
 import math, os, sys, fleep
